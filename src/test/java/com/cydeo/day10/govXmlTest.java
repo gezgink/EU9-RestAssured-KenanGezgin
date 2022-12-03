@@ -32,6 +32,10 @@ public class govXmlTest {
         List<String> item = xmlPath.getList("response.rows.row.item");
         System.out.println("item = " + item);
 
+        String url = xmlPath.getString("response.rows.row[0].@_address");
+        System.out.println("url = " + url);
+
+
 //        //get 2005 other
 //        int locationZip = xmlPath.getInt("response.rows.row.location_1_zip");
 //        System.out.println("locationZip = " + locationZip);
