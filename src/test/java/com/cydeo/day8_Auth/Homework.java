@@ -16,8 +16,8 @@ public class Homework extends SpartanTestBase {
     public void test1(){
         given().auth().basic("admin", "admin")
                 .accept(ContentType.JSON)
-                .when()
-                ("/api/spartans")
+                .when();
+
 
 
 
