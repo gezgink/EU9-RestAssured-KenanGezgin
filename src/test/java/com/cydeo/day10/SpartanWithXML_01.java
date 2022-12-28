@@ -12,7 +12,7 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
-public class SpartanWithXML extends SpartanAuthTestBase {
+public class SpartanWithXML_01 extends SpartanAuthTestBase {
 
     @DisplayName("GET request to /api/spartans and verify xml")
     @Test
