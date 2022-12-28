@@ -14,7 +14,7 @@ import java.util.List;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class SpartanPojoGetRequestTest extends SpartanTestBase {
+public class SpartanPojoGetRequestTest_01 extends SpartanTestBase {
 
 
 
@@ -106,6 +106,8 @@ public class SpartanPojoGetRequestTest extends SpartanTestBase {
                 .then()
                 .statusCode(200)
                 .extract().jsonPath().getList("content", Spartan.class);
+
+        System.out.println("spartanList = " + spartanList);
         System.out.println(spartanList.get(1).getName());
     }
 

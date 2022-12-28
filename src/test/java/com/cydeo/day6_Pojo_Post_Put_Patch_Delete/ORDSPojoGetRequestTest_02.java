@@ -16,7 +16,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class ORDSPojoGetRequestTest extends HRTestBase {
+public class ORDSPojoGetRequestTest_02 extends HRTestBase {
 
     @Test
     public void regionTest(){
@@ -66,7 +66,6 @@ public class ORDSPojoGetRequestTest extends HRTestBase {
 
         //get list of regions out of regions object
         List<Region> items = regions.getItems();
-
 
 
 

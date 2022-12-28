@@ -11,7 +11,7 @@ import java.util.*;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
-public class SpartanPostRequestDemo extends SpartanTestBase {
+public class SpartanPostRequestDemo_01 extends SpartanTestBase {
 
     /*
  Given accept type and Content type is JSON

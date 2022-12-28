@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class SpartanHamcrestTest extends SpartanTestBase {
+public class SpartanHamcrestTest_04 extends SpartanTestBase {
 
     @DisplayName("GET spartan/search and chaining together")
     @Test
